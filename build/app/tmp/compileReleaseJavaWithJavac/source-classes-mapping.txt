@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/edentech/fuodz/BuildConfig.java
+ com.edentech.fuodz.BuildConfig
