@@ -39,13 +39,13 @@ class _WelcomePageState extends State<WelcomePage>
                 vm.selectedPage != 0
                     ? AppBar(
                         title: vm.pageTitle.text
-                            .color(context.textTheme.bodyText1.color)
+                            .color(Colors.white)
                             .make(),
-                        backgroundColor: Colors.transparent,
+                        backgroundColor: Colors.white,
                         elevation: 0,
                         leading: Icon(
                           FlutterIcons.arrow_left_fea,
-                          color: context.textTheme.bodyText1.color,
+                          color: Colors.white,
                         ).onInkTap(
                           () => vm.pageSelected(0, ""),
                         ),
@@ -68,7 +68,7 @@ class _WelcomePageState extends State<WelcomePage>
                               ).expand()
                             : VendorPage().expand(),
               ],
-            ).pOnly(top: vm.showOnlyOneSection() ? Vx.dp20 : Vx.dp0),
+            ).pOnly(top: vm.showOnlyOneSection() ? Vx.dp64 : Vx.dp64),
           );
         },
       ),
