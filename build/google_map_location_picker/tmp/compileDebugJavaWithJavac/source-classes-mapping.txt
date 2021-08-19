@@ -1,2 +1,0 @@
-com/humazed/google_map_location_picker/BuildConfig.java
- com.humazed.google_map_location_picker.BuildConfig
